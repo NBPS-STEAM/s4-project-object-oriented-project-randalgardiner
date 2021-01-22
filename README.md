@@ -22,7 +22,7 @@ The project will need to meet the Completion Criteria as well as follow the Acad
 ### Part 1
 Before you start any coding, complete the following steps:
 - [X] accept the assignment on GitHub Classroom,
-- [ ] import the project into your IDE,
+- [X] import the project into your IDE,
 - [ ] accept the Academic Honesty Guidelines in 'worksCited.md'
 - [ ] read over the assignment's grading rubric on Canvas,
 - [ ] tick the checkboxes for all the tasks in Part 1,
