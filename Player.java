@@ -25,15 +25,14 @@ public class Player {
   public String getName() {
       return name;
   }
-
   // getter and setter in order to get the name of the computer that
   // the players are using
 
-  public void setComputerName(Sring computerName) {
-    this.computerName = computerName
+  public void setComputerName(String computerName) {
+    this.computerName = computerName;
   }
 
-  public String getComputerName(){
+  public String getComputerName() {
     return computerName;
   }
 

@@ -5,16 +5,18 @@ class App {
   public static void main(String[] args) {
 
     //ask for name
-    String name = "Bob";
-    // ask for age
-    int age = 17;
-    
+    String name = "Red";
+    String computerName = "Macbook";
 
-    Player player1 = new Player(name, age);
+    Player player1 = new Player("Red", "Macbook");
+    System.out.println("Hello player 1, your name and computer name are: " + player1.getName() + " " +  "and" + " " + player1.getComputerName());
 
-    System.out.println("Hello player 1, Enter your name: " + player1.getName() + "!");
-    System.out.println("Hello player 2, Enter your name:");
+    System.out.println(" ----------------------------");
 
+    Player player2 = new Player("Blue");
+    System.out.println("Hello player 2, your name is: " + player2.getName());
+   
+    System.out.println(" ----------------------------");
 
          int computerNumber;
          int userNumber = 0;
