@@ -4,9 +4,22 @@ import java.util.Random;
 class App {
   public static void main(String[] args) {
 
+    //ask for name
+    String name = "Bob";
+    // ask for age
+    int age = 17;
+    
+
+    Player player1 = new Player(name, age);
+
+    System.out.println("Hello player 1, Enter your name: " + player1.getName() + "!");
+    System.out.println("Hello player 2, Enter your name:");
+
+
          int computerNumber;
          int userNumber = 0;
          
+      
         Scanner scan = new Scanner(System.in);
         Random rand = new Random();
 
@@ -30,6 +43,8 @@ class App {
         System.out.println("The number you have guessed is too low!");
         }
         }
+
+
     
   }
 }
