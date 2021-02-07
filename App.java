@@ -17,36 +17,75 @@ class App {
     System.out.println("Hello player 2, your name is: " + player2.getName());
    
     System.out.println(" ----------------------------");
-
+  
+         //instance variables for computer guess and player guesses
          int computerNumber;
-         int userNumber = 0;
-         
-      
+         int redNumber = 0;
+         int blueNumber = 0;
+         int counter = 3;
+         int redCounter = 3;
+         int blueCounter = 3;
+         int draws = 3;
+
         Scanner scan = new Scanner(System.in);
         Random rand = new Random();
 
-        computerNumber = rand.nextInt(101);
-        boolean win = false;
-
-         while(userNumber != computerNumber){
-        System.out.print("Guess a number between 1 and 100: ");
-        userNumber = scan.nextInt();
+        do {
+       System.out.println("--------------------------------");
+        computerNumber = rand.nextInt(21);
+  
       
-        if(userNumber == computerNumber){
-        win = true;
-        System.out.println("Correct!");
-        }
-        
-        else if(userNumber > computerNumber){
-        System.out.println("The number you have guessed is too high!"); 
-        }
-        
-        else if(userNumber < computerNumber){
-        System.out.println("The number you have guessed is too low!");
-        }
-        }
+      System.out.println("Enter your guess between 1 and 20"+ player1);
+      redNumber = scan.nextInt();
 
+       System.out.println("Enter your guess between 1 and 20" + player2);
+      blueNumber = scan.nextInt();
 
-    
+      if (redNumber == computerNumber && blueNumber == computerNumber)  {
+        System.out.println("It's a draw!");
+        counter --;
+        draws++;
+        System.out.println("You have" +counter+ "game(s) left");
+      }
+     else if(redNumber == computerNumber) {
+       redCounter++;
+       System.out.println(player1 + "was right!");
+       counter--;
+       System.out.println("You have" +counter+ "game(s) left");
+     }
+     else if(blueNumber == computerNumber) {
+       blueCounter++;
+       System.out.println(player2 + "was right!");
+       counter--;
+       System.out.println("You have" +counter+ "game(s) left");
   }
+   
+   }while(counter!=0);
+
+        System.out.println();
+
+        System.out.println("Scoreboard ----------------");
+        System.out.println();
+
+        System.out.println(player1+"won"+redCounter+"games!");
+        System.out.println(player2+"won"+blueCounter+"games!");
+        System.out.println("Draws made:"+draws);
+
+        System.out.println();
+
+        if (redCounter > blueCounter) {
+          System.out.println("Congrats!"+player1+ "for winning the game!");
+        }
+        else if (redCounter < blueCounter) {
+          System.out.println("Congrats!"+player2+ "for winning the game!");
+        }
+        else {
+          System.out.println("No one won :( therefore it was a draw!");
+        }
+  }
+
 }
+
+
+
+

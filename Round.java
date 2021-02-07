@@ -12,7 +12,13 @@
 
 // 3) declare a winner
 
+
 // static variable and method
 // judge can keep track of how many track of how many games played
+
+//keep track of score
+  //keepPlaying;
+  // endGame;
+
 
 //}
