@@ -1,24 +1,22 @@
 public class Player {
-    
+
+  String player;  
   private String name;
-  String player;
-  String computerName;
-  int age;
+  private String computerName;
+  
         
-  // constructor overloading, two constructors, the only difference 
+  // example of constructor overloading, two constructors, the only difference 
   // is that one specifies which computer they are playing on
   
-  public Player(String name, int ageOfPlayer, String nameOfComputer){
+  
+  public Player(String name, String computerName){
       this.name = name;
-      age = ageOfPlayer;
-      computerName = nameOfComputer;  
+      this.computerName = computerName;  
   }
 
-  public Player(String playerName, int ageOfPlayer){
-    name = playerName;
-    age = ageOfPlayer;
+  public Player(String name){
+    this.name = name; 
   }
-
   // getter and setter in order to get user name
   public void setName(String name)    {
       this.name = name;
@@ -27,6 +25,18 @@ public class Player {
   public String getName() {
       return name;
   }
+
+  // getter and setter in order to get the name of the computer that
+  // the players are using
+
+  public void setComputerName(Sring computerName) {
+    this.computerName = computerName
+  }
+
+  public String getComputerName(){
+    return computerName;
+  }
+
 }          
          
         
