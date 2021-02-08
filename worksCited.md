@@ -16,3 +16,9 @@ When making a citation, include the resource title, URL, and date of access. Use
 
 [Java If ... Else](https://www.w3schools.com/java/java_conditions.asp)
 Date accessed: Jan 20, 2021
+ 
+(61), edetebenezer, et al. “Lucky Number Guessing Game (2 Players) in Java Using Eclipse IDE.” Steemit, steemit.com/utopian-io/@edetebenezer/lucky-number-guessing-game-2-players-in-java-using-eclipse-ide. 
+ Date accessed: Feb 06, 2021
+
+ “Number-Guessing Game in Java.” Code Review Stack Exchange, 1 June 1966, codereview.stackexchange.com/questions/167217/number-guessing-game-in-java. 
+ Date accessed: Feb 07, 2021
