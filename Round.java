@@ -1,24 +1,24 @@
 //public class Round {
-// judge will
-// 1) create random number
+ 
+ //keepPlaying;
 
-//int createNumber;
-//judgeNumber = rand.nextInt(101);
-//String winner;
-//int guessNumber;
-//int trackGamesPlayed
+    //private static boolean win = false;
+   // private static boolean quit = false;
+    //private static String play;
+    
+    
+    //private static void playAgain(String play,boolean win) {
+     //   System.out.println("Would you like to play again(y/n)?");
+      //  String play = input.next();
+     //   if (play.equalsIgnoreCase("y")) {
+      //      System.out.println("The game will restart.");
+      //      System.out.flush();
+       //     win = false;
+       // } else {
+       //     System.out.println("The game will quit.");
+        //    quit = true;
+       // }
 
-// 2) check if number guessed is too high or too low
-
-// 3) declare a winner
-
-
-// static variable and method
-// judge can keep track of how many track of how many games played
-
-//keep track of score
-  //keepPlaying;
-  // endGame;
-
+    //}
 
 //}

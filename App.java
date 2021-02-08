@@ -44,13 +44,13 @@ class App {
 
         do {
        System.out.println("--------------------------------");
-        computerNumber = rand.nextInt(20);
+        computerNumber = rand.nextInt(15);
   
       
-      System.out.println("Enter your guess between 1 and 20" + ","+ " "+redNameChange);
+      System.out.println("Enter your guess between 1 and 15" + ","+ " "+redNameChange);
       redNumber = scan.nextInt();
 
-       System.out.println("Enter your guess between 1 and 20" + "," + " "+ blueNameChange);
+       System.out.println("Enter your guess between 1 and 15" + "," + " "+ blueNameChange);
       blueNumber = scan.nextInt();
 
       if (redNumber == computerNumber && blueNumber == computerNumber)  {
@@ -96,7 +96,11 @@ class App {
         }
   }
 
-}
+        
+        }
+      
+        
+
 
 
 
